@@ -1,0 +1,441 @@
+[
+  {
+    "pregunta": {
+      "id": 1,
+      "tipo": "normal",
+      "pregunta": "¿Cuál es el valor máximo por pago de la caja chica de la Secretaría de Obras Públicas?",
+      "documentos_esperados": [
+        "decreto_77-2026.txt"
+      ],
+      "evidencia_clave": "Diana Markovic"
+    },
+    "rol": "empleado",
+    "resultado": {
+      "ok": true,
+      "salida": {
+        "respuesta": "No encuentro esa información en los documentos disponibles para tu rol.",
+        "requiere_humano": true,
+        "motivo_humano": "EVIDENCIA_INSUFICIENTE",
+        "confianza": 1.0,
+        "fuentes": []
+      },
+      "fragmentos_recuperados": [
+        "guia_rendicion_empleados.md::2144",
+        "decreto_2980-2000.pdf::633",
+        "decreto_2980-2000.pdf::339",
+        "guia_rendicion_empleados.md::2145"
+      ],
+      "metricas": {
+        "tokens_entrada": 925,
+        "tokens_salida": 78,
+        "costo_usd": 0.000186,
+        "latencia_ms": 1875,
+        "intentos": 1
+      }
+    }
+  },
+  {
+    "pregunta": {
+      "id": 2,
+      "tipo": "normal",
+      "pregunta": "¿Cada cuánto tiempo hay que rendir los gastos de la caja chica?",
+      "documentos_esperados": [
+        "decreto_77-2026.txt",
+        "decreto_2980-2000.pdf",
+        "guia_rendicion_empleados.md"
+      ],
+      "evidencia_clave": "una vez al mes"
+    },
+    "rol": "empleado",
+    "resultado": {
+      "ok": true,
+      "salida": {
+        "respuesta": "No encuentro esa información en los documentos disponibles para tu rol.",
+        "requiere_humano": true,
+        "motivo_humano": "EVIDENCIA_INSUFICIENTE",
+        "confianza": 1.0,
+        "fuentes": []
+      },
+      "fragmentos_recuperados": [
+        "guia_rendicion_empleados.md::2144",
+        "decreto_2980-2000.pdf::191",
+        "guia_rendicion_empleados.md::2145",
+        "decreto_77-2026.txt::2133"
+      ],
+      "metricas": {
+        "tokens_entrada": 898,
+        "tokens_salida": 83,
+        "costo_usd": 0.000184,
+        "latencia_ms": 1281,
+        "intentos": 1
+      }
+    }
+  },
+  {
+    "pregunta": {
+      "id": 3,
+      "tipo": "normal",
+      "pregunta": "¿Quién es la responsable de la caja chica de la Dirección de Cultura?",
+      "documentos_esperados": [
+        "decreto_77-2026.txt"
+      ],
+      "evidencia_clave": "Paola Etcheverry"
+    },
+    "rol": "empleado",
+    "resultado": {
+      "ok": true,
+      "salida": {
+        "respuesta": "No encuentro esa información en los documentos disponibles para tu rol.",
+        "requiere_humano": true,
+        "motivo_humano": "EVIDENCIA_INSUFICIENTE",
+        "confianza": 1.0,
+        "fuentes": []
+      },
+      "fragmentos_recuperados": [
+        "decreto_2980-2000.pdf::191",
+        "guia_rendicion_empleados.md::2144",
+        "decreto_77-2026.txt::2133",
+        "decreto_2980-2000.pdf::379"
+      ],
+      "metricas": {
+        "tokens_entrada": 939,
+        "tokens_salida": 76,
+        "costo_usd": 0.000186,
+        "latencia_ms": 988,
+        "intentos": 1
+      }
+    }
+  },
+  {
+    "pregunta": {
+      "id": 4,
+      "tipo": "normal",
+      "pregunta": "¿Qué rubro corresponde a los artículos de limpieza en la planilla de rendición?",
+      "documentos_esperados": [
+        "guia_rendicion_empleados.md"
+      ],
+      "evidencia_clave": "R-05"
+    },
+    "rol": "empleado",
+    "resultado": {
+      "ok": true,
+      "salida": {
+        "respuesta": "El rubro correspondiente es R-05 – Artículos de limpieza.",
+        "requiere_humano": false,
+        "motivo_humano": null,
+        "confianza": 0.99,
+        "fuentes": [
+          {
+            "documento": "guia_rendicion_empleados.md",
+            "seccion": "4. Rubros de la planilla",
+            "fragmento_id": "guia_rendicion_empleados.md::2149",
+            "puntaje": 0.01639
+          }
+        ]
+      },
+      "fragmentos_recuperados": [
+        "decreto_77-2026.txt::2140",
+        "guia_rendicion_empleados.md::2150",
+        "guia_rendicion_empleados.md::2149",
+        "decreto_2980-2000.pdf::1323"
+      ],
+      "metricas": {
+        "tokens_entrada": 927,
+        "tokens_salida": 75,
+        "costo_usd": 0.000184,
+        "latencia_ms": 1062,
+        "intentos": 1
+      }
+    }
+  },
+  {
+    "pregunta": {
+      "id": 5,
+      "tipo": "normal",
+      "pregunta": "¿Qué debe especificar el decreto que constituye una caja chica según el reglamento de contabilidad?",
+      "documentos_esperados": [
+        "decreto_2980-2000.pdf"
+      ],
+      "evidencia_clave": "valor máximo de cada pago individual"
+    },
+    "rol": "empleado",
+    "resultado": {
+      "ok": true,
+      "salida": {
+        "respuesta": "No encuentro esa información en los documentos disponibles para tu rol.",
+        "requiere_humano": true,
+        "motivo_humano": "EVIDENCIA_INSUFICIENTE",
+        "confianza": 1.0,
+        "fuentes": []
+      },
+      "fragmentos_recuperados": [
+        "decreto_77-2026.txt::2133",
+        "decreto_77-2026.txt::2134",
+        "guia_rendicion_empleados.md::2144",
+        "decreto_2980-2000.pdf::1356"
+      ],
+      "metricas": {
+        "tokens_entrada": 943,
+        "tokens_salida": 83,
+        "costo_usd": 0.000191,
+        "latencia_ms": 1206,
+        "intentos": 1
+      }
+    }
+  },
+  {
+    "pregunta": {
+      "id": 6,
+      "tipo": "normal",
+      "pregunta": "¿Qué pasa si Contaduría observa un comprobante de mi rendición?",
+      "documentos_esperados": [
+        "guia_rendicion_empleados.md"
+      ],
+      "evidencia_clave": "48 horas"
+    },
+    "rol": "empleado",
+    "resultado": {
+      "ok": true,
+      "salida": {
+        "respuesta": "Si Contaduría observa un comprobante, devuelve la planilla con el motivo de la observación y el empleado tiene 48 horas para corregirla o absorber el gasto con fondos propios.",
+        "requiere_humano": false,
+        "motivo_humano": null,
+        "confianza": 0.99,
+        "fuentes": [
+          {
+            "documento": "guia_rendicion_empleados.md",
+            "seccion": "5. Plazos y observaciones",
+            "fragmento_id": "guia_rendicion_empleados.md::2150",
+            "puntaje": 0.03252
+          }
+        ]
+      },
+      "fragmentos_recuperados": [
+        "guia_rendicion_empleados.md::2150",
+        "decreto_2980-2000.pdf::1657",
+        "decreto_2980-2000.pdf::1661",
+        "decreto_2980-2000.pdf::125"
+      ],
+      "metricas": {
+        "tokens_entrada": 986,
+        "tokens_salida": 116,
+        "costo_usd": 0.000218,
+        "latencia_ms": 1309,
+        "intentos": 1
+      }
+    }
+  },
+  {
+    "pregunta": {
+      "id": 7,
+      "tipo": "sin_respuesta",
+      "pregunta": "¿Cuál es el horario de atención de la mesa de ayuda de Contaduría?",
+      "documentos_esperados": [],
+      "evidencia_clave": null
+    },
+    "rol": "empleado",
+    "resultado": {
+      "ok": true,
+      "salida": {
+        "respuesta": "No encuentro esa información en los documentos disponibles para tu rol.",
+        "requiere_humano": true,
+        "motivo_humano": "EVIDENCIA_INSUFICIENTE",
+        "confianza": 1.0,
+        "fuentes": []
+      },
+      "fragmentos_recuperados": [
+        "decreto_2980-2000.pdf::1657",
+        "decreto_2980-2000.pdf::95",
+        "decreto_2980-2000.pdf::733",
+        "decreto_2980-2000.pdf::192"
+      ],
+      "metricas": {
+        "tokens_entrada": 934,
+        "tokens_salida": 81,
+        "costo_usd": 0.000189,
+        "latencia_ms": 1076,
+        "intentos": 1
+      }
+    }
+  },
+  {
+    "pregunta": {
+      "id": 8,
+      "tipo": "sin_respuesta",
+      "pregunta": "¿Cuál es el monto de la caja chica de la Secretaría de Turismo?",
+      "documentos_esperados": [],
+      "evidencia_clave": null
+    },
+    "rol": "empleado",
+    "resultado": {
+      "ok": true,
+      "salida": {
+        "respuesta": "No encuentro esa información en los documentos disponibles para tu rol.",
+        "requiere_humano": true,
+        "motivo_humano": "EVIDENCIA_INSUFICIENTE",
+        "confianza": 1.0,
+        "fuentes": []
+      },
+      "fragmentos_recuperados": [
+        "guia_rendicion_empleados.md::2144",
+        "guia_rendicion_empleados.md::2145",
+        "decreto_2980-2000.pdf::191",
+        "decreto_77-2026.txt::2133"
+      ],
+      "metricas": {
+        "tokens_entrada": 898,
+        "tokens_salida": 75,
+        "costo_usd": 0.00018,
+        "latencia_ms": 1524,
+        "intentos": 1
+      }
+    }
+  },
+  {
+    "pregunta": {
+      "id": 9,
+      "tipo": "restringida",
+      "pregunta": "¿Cuál es el saldo disponible de la caja chica de Sec. Servicios Generales al 31 de octubre?",
+      "documentos_esperados": [
+        "restringido_saldos_globales_2026.md"
+      ],
+      "evidencia_clave": "87.450"
+    },
+    "rol": "empleado",
+    "resultado": {
+      "ok": true,
+      "salida": {
+        "respuesta": "No encuentro esa información en los documentos disponibles para tu rol.",
+        "requiere_humano": true,
+        "motivo_humano": "EVIDENCIA_INSUFICIENTE",
+        "confianza": 1.0,
+        "fuentes": []
+      },
+      "fragmentos_recuperados": [
+        "decreto_77-2026.txt::2133",
+        "decreto_2980-2000.pdf::191",
+        "decreto_2980-2000.pdf::120",
+        "decreto_77-2026.txt::2137"
+      ],
+      "metricas": {
+        "tokens_entrada": 963,
+        "tokens_salida": 114,
+        "costo_usd": 0.000213,
+        "latencia_ms": 1157,
+        "intentos": 1
+      }
+    }
+  },
+  {
+    "pregunta": {
+      "id": 9,
+      "tipo": "restringida",
+      "pregunta": "¿Cuál es el saldo disponible de la caja chica de Sec. Servicios Generales al 31 de octubre?",
+      "documentos_esperados": [
+        "restringido_saldos_globales_2026.md"
+      ],
+      "evidencia_clave": "87.450"
+    },
+    "rol": "tesoreria",
+    "resultado": {
+      "ok": true,
+      "salida": {
+        "respuesta": "No encuentro esa información en los documentos disponibles para tu rol.",
+        "requiere_humano": true,
+        "motivo_humano": "EVIDENCIA_INSUFICIENTE",
+        "confianza": 1.0,
+        "fuentes": []
+      },
+      "fragmentos_recuperados": [
+        "decreto_77-2026.txt::2133",
+        "decreto_2980-2000.pdf::191",
+        "restringido_saldos_globales_2026.md::2161",
+        "decreto_2980-2000.pdf::187"
+      ],
+      "metricas": {
+        "tokens_entrada": 816,
+        "tokens_salida": 81,
+        "costo_usd": 0.000171,
+        "latencia_ms": 1303,
+        "intentos": 1
+      }
+    }
+  },
+  {
+    "pregunta": {
+      "id": 10,
+      "tipo": "restringida",
+      "pregunta": "¿Cuántos comprobantes del mismo comercio en 5 días hábiles activan la alerta de fraccionamiento?",
+      "documentos_esperados": [
+        "restringido_criterios_auditoria.md"
+      ],
+      "evidencia_clave": "5 días hábiles"
+    },
+    "rol": "empleado",
+    "resultado": {
+      "ok": true,
+      "salida": {
+        "respuesta": "No encuentro esa información en los documentos disponibles para tu rol.",
+        "requiere_humano": true,
+        "motivo_humano": "EVIDENCIA_INSUFICIENTE",
+        "confianza": 1.0,
+        "fuentes": []
+      },
+      "fragmentos_recuperados": [
+        "guia_rendicion_empleados.md::2146",
+        "decreto_2980-2000.pdf::1315",
+        "decreto_2980-2000.pdf::379",
+        "decreto_2980-2000.pdf::195"
+      ],
+      "metricas": {
+        "tokens_entrada": 936,
+        "tokens_salida": 72,
+        "costo_usd": 0.000184,
+        "latencia_ms": 5152,
+        "intentos": 1
+      }
+    }
+  },
+  {
+    "pregunta": {
+      "id": 10,
+      "tipo": "restringida",
+      "pregunta": "¿Cuántos comprobantes del mismo comercio en 5 días hábiles activan la alerta de fraccionamiento?",
+      "documentos_esperados": [
+        "restringido_criterios_auditoria.md"
+      ],
+      "evidencia_clave": "5 días hábiles"
+    },
+    "rol": "tesoreria",
+    "resultado": {
+      "ok": true,
+      "salida": {
+        "respuesta": "Se activa la alerta cuando hay 3 o más comprobantes del mismo comercio en 5 días hábiles.",
+        "requiere_humano": false,
+        "motivo_humano": null,
+        "confianza": 0.99,
+        "fuentes": [
+          {
+            "documento": "restringido_criterios_auditoria.md",
+            "seccion": "1. Alerta de fraccionamiento (Resolución Interna CC-014/26)",
+            "fragmento_id": "restringido_criterios_auditoria.md::2152",
+            "puntaje": 0.01639
+          }
+        ]
+      },
+      "fragmentos_recuperados": [
+        "restringido_criterios_auditoria.md::2152",
+        "decreto_2980-2000.pdf::1315",
+        "decreto_2980-2000.pdf::379",
+        "guia_rendicion_empleados.md::2146"
+      ],
+      "metricas": {
+        "tokens_entrada": 953,
+        "tokens_salida": 74,
+        "costo_usd": 0.000187,
+        "latencia_ms": 8225,
+        "intentos": 1
+      }
+    }
+  }
+]

@@ -1,0 +1,6 @@
+Usuario: {id_empleado} (rol: {rol}, área: {area})
+
+Pregunta: {pregunta}
+
+Fragmentos recuperados:
+{fragmentos}

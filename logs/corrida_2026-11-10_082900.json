@@ -1,0 +1,189 @@
+{
+  "fecha": "2026-11-10T08:29:00",
+  "proveedor": "groq",
+  "modelo": "openai/gpt-oss-120b",
+  "promedios": {
+    "tokens_entrada": 922,
+    "tokens_salida": 162,
+    "costo_usd": 0.000235,
+    "latencia_ms": 738,
+    "aciertos": "5/5"
+  },
+  "consultas": [
+    {
+      "consulta": 1,
+      "descripcion": "Ticket claro de papelería",
+      "decision_esperada": "aprobar",
+      "entrada": {
+        "id_empleado": "EMP-101",
+        "area": "Sec. Servicios Generales",
+        "texto_ticket": "LIBRERÍA EL PAPEL S.A.\nCUIT 30-12345678-9\nFactura B 0003-00012345\nFecha: 14/10/2026\n2 resmas A4 75g ........ $9.800,00\n1 caja biromes x50 ..... $8.700,00\nTOTAL: $18.500,00"
+      },
+      "resultado": {
+        "ok": true,
+        "salida": {
+          "es_comprobante": true,
+          "comercio": "LIBRERÍA EL PAPEL S.A.",
+          "fecha": "2026-10-14",
+          "monto_total": 18500.0,
+          "categoria": "papeleria",
+          "decision": "aprobar",
+          "confianza": 0.99,
+          "justificacion": "El ticket contiene comercio, fecha y monto legibles y corresponde a compra de papelería, gasto permitido dentro del límite de $200.000."
+        },
+        "decision_final": "aprobar",
+        "excede_tope": false,
+        "tope_area": 200000,
+        "motivos_revision": [],
+        "metricas": {
+          "tokens_entrada": 943,
+          "tokens_salida": 149,
+          "costo_usd": 0.000231,
+          "latencia_ms": 811,
+          "intentos": 1
+        }
+      }
+    },
+    {
+      "consulta": 2,
+      "descripcion": "Compra de limpieza en supermercado",
+      "decision_esperada": "aprobar",
+      "entrada": {
+        "id_empleado": "EMP-101",
+        "area": "Sec. Servicios Generales",
+        "texto_ticket": "SUPERMERCADO LA ESQUINA S.R.L.\nTicket fiscal Nº 0007-00098765\n02/10/2026\nLavandina 5L x3 ........ $7.500,00\nDetergente 750ml x6 .... $10.800,00\nTrapo de piso x4 ....... $6.400,00\nTOTAL $24.700,00"
+      },
+      "resultado": {
+        "ok": true,
+        "salida": {
+          "es_comprobante": true,
+          "comercio": "SUPERMERCADO LA ESQUINA S.R.L.",
+          "fecha": "2026-10-02",
+          "monto_total": 24700.0,
+          "categoria": "limpieza",
+          "decision": "aprobar",
+          "confianza": 0.99,
+          "justificacion": "Ticket legible con comercio, fecha y monto, y los productos son de limpieza, dentro del límite permitido."
+        },
+        "decision_final": "aprobar",
+        "excede_tope": false,
+        "tope_area": 200000,
+        "motivos_revision": [],
+        "metricas": {
+          "tokens_entrada": 948,
+          "tokens_salida": 206,
+          "costo_usd": 0.000266,
+          "latencia_ms": 797,
+          "intentos": 1
+        }
+      }
+    },
+    {
+      "consulta": 3,
+      "descripcion": "Repuesto que supera el tope del área (200.000)",
+      "decision_esperada": "revision_humana",
+      "entrada": {
+        "id_empleado": "EMP-101",
+        "area": "Sec. Servicios Generales",
+        "texto_ticket": "REPUESTOS DEL SUR S.A.\nFactura B 0001-00004567\nFecha 20/10/2026\n1 bomba de agua autoelevadora ... $230.000,00\nTOTAL: $230.000,00"
+      },
+      "resultado": {
+        "ok": true,
+        "salida": {
+          "es_comprobante": true,
+          "comercio": "REPUESTOS DEL SUR S.A.",
+          "fecha": "2026-10-20",
+          "monto_total": 230000.0,
+          "categoria": "repuestos",
+          "decision": "aprobar",
+          "confianza": 0.97,
+          "justificacion": "Ticket legible con comercio, fecha y monto claros; concepto de repuestos es gasto menor permitido."
+        },
+        "decision_final": "revision_humana",
+        "excede_tope": true,
+        "tope_area": 200000,
+        "motivos_revision": [
+          "El monto $230,000.00 supera el valor máximo por pago ($200,000) del área."
+        ],
+        "metricas": {
+          "tokens_entrada": 915,
+          "tokens_salida": 185,
+          "costo_usd": 0.000248,
+          "latencia_ms": 744,
+          "intentos": 1
+        }
+      }
+    },
+    {
+      "consulta": 4,
+      "descripcion": "Consulta confusa (ticket borroso e incompleto)",
+      "decision_esperada": "revision_humana",
+      "entrada": {
+        "id_empleado": "EMP-101",
+        "area": "Sec. Servicios Generales",
+        "texto_ticket": "ticket medio borroso, parece de una ferretería o algo así, se lee ...ERRETERÍA... y un total que puede ser 3.2?0 o 8.250, no se ve la fecha, tiene tornillos y otra cosa que no se entiende"
+      },
+      "resultado": {
+        "ok": true,
+        "salida": {
+          "es_comprobante": true,
+          "comercio": "FERRETERÍA",
+          "fecha": null,
+          "monto_total": null,
+          "categoria": "repuestos",
+          "decision": "revision_humana",
+          "confianza": 0.4,
+          "justificacion": "El texto indica una ferretería y posible compra de tornillos, pero la fecha y el monto son ilegibles, por lo que se requiere revisión humana."
+        },
+        "decision_final": "revision_humana",
+        "excede_tope": false,
+        "tope_area": 200000,
+        "motivos_revision": [
+          "Datos ilegibles o ausentes en el comprobante: fecha, monto_total.",
+          "Confianza 40% menor al umbral de 90%."
+        ],
+        "metricas": {
+          "tokens_entrada": 921,
+          "tokens_salida": 128,
+          "costo_usd": 0.000215,
+          "latencia_ms": 743,
+          "intentos": 1
+        }
+      }
+    },
+    {
+      "consulta": 5,
+      "descripcion": "Consulta fuera de tema",
+      "decision_esperada": "rechazar",
+      "entrada": {
+        "id_empleado": "EMP-101",
+        "area": "Sec. Servicios Generales",
+        "texto_ticket": "Hola, ¿me podés pasar una receta de milanesas al horno con papas?"
+      },
+      "resultado": {
+        "ok": true,
+        "salida": {
+          "es_comprobante": false,
+          "comercio": null,
+          "fecha": null,
+          "monto_total": null,
+          "categoria": "no_corresponde",
+          "decision": "rechazar",
+          "confianza": 1.0,
+          "justificacion": "El texto no corresponde a un ticket o factura de compra, sino a una solicitud de receta, por lo que no es un comprobante válido para caja chica."
+        },
+        "decision_final": "rechazar",
+        "excede_tope": false,
+        "tope_area": 200000,
+        "motivos_revision": [],
+        "metricas": {
+          "tokens_entrada": 882,
+          "tokens_salida": 140,
+          "costo_usd": 0.000216,
+          "latencia_ms": 597,
+          "intentos": 1
+        }
+      }
+    }
+  ]
+}

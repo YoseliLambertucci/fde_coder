@@ -1,0 +1,324 @@
+[
+  {
+    "pregunta": {
+      "id": 1,
+      "tipo": "normal",
+      "pregunta": "¿Cuál es el valor máximo por pago de la caja chica de la Secretaría de Obras Públicas?",
+      "documentos_esperados": [
+        "decreto_77-2026.txt"
+      ],
+      "evidencia_clave": "Diana Markovic"
+    },
+    "rol": "empleado",
+    "resultado": {
+      "ok": false,
+      "error": {
+        "codigo": "API_MODELO_NO_ENCONTRADO",
+        "mensaje": "El modelo 'gpt-oss-120b' no existe en groq. Revisá MODELO en .env o la lista de modelos del proveedor.",
+        "campos": []
+      },
+      "metricas": {
+        "tokens_entrada": 0,
+        "tokens_salida": 0,
+        "costo_usd": 0.0,
+        "latencia_ms": 1282,
+        "intentos": 1
+      }
+    }
+  },
+  {
+    "pregunta": {
+      "id": 2,
+      "tipo": "normal",
+      "pregunta": "¿Cada cuánto tiempo hay que rendir los gastos de la caja chica?",
+      "documentos_esperados": [
+        "decreto_77-2026.txt",
+        "decreto_2980-2000.pdf",
+        "guia_rendicion_empleados.md"
+      ],
+      "evidencia_clave": "una vez al mes"
+    },
+    "rol": "empleado",
+    "resultado": {
+      "ok": false,
+      "error": {
+        "codigo": "API_MODELO_NO_ENCONTRADO",
+        "mensaje": "El modelo 'gpt-oss-120b' no existe en groq. Revisá MODELO en .env o la lista de modelos del proveedor.",
+        "campos": []
+      },
+      "metricas": {
+        "tokens_entrada": 0,
+        "tokens_salida": 0,
+        "costo_usd": 0.0,
+        "latencia_ms": 628,
+        "intentos": 1
+      }
+    }
+  },
+  {
+    "pregunta": {
+      "id": 3,
+      "tipo": "normal",
+      "pregunta": "¿Quién es la responsable de la caja chica de la Dirección de Cultura?",
+      "documentos_esperados": [
+        "decreto_77-2026.txt"
+      ],
+      "evidencia_clave": "Paola Etcheverry"
+    },
+    "rol": "empleado",
+    "resultado": {
+      "ok": false,
+      "error": {
+        "codigo": "API_MODELO_NO_ENCONTRADO",
+        "mensaje": "El modelo 'gpt-oss-120b' no existe en groq. Revisá MODELO en .env o la lista de modelos del proveedor.",
+        "campos": []
+      },
+      "metricas": {
+        "tokens_entrada": 0,
+        "tokens_salida": 0,
+        "costo_usd": 0.0,
+        "latencia_ms": 707,
+        "intentos": 1
+      }
+    }
+  },
+  {
+    "pregunta": {
+      "id": 4,
+      "tipo": "normal",
+      "pregunta": "¿Qué rubro corresponde a los artículos de limpieza en la planilla de rendición?",
+      "documentos_esperados": [
+        "guia_rendicion_empleados.md"
+      ],
+      "evidencia_clave": "R-05"
+    },
+    "rol": "empleado",
+    "resultado": {
+      "ok": false,
+      "error": {
+        "codigo": "API_MODELO_NO_ENCONTRADO",
+        "mensaje": "El modelo 'gpt-oss-120b' no existe en groq. Revisá MODELO en .env o la lista de modelos del proveedor.",
+        "campos": []
+      },
+      "metricas": {
+        "tokens_entrada": 0,
+        "tokens_salida": 0,
+        "costo_usd": 0.0,
+        "latencia_ms": 649,
+        "intentos": 1
+      }
+    }
+  },
+  {
+    "pregunta": {
+      "id": 5,
+      "tipo": "normal",
+      "pregunta": "¿Qué debe especificar el decreto que constituye una caja chica según el reglamento de contabilidad?",
+      "documentos_esperados": [
+        "decreto_2980-2000.pdf"
+      ],
+      "evidencia_clave": "valor máximo de cada pago individual"
+    },
+    "rol": "empleado",
+    "resultado": {
+      "ok": false,
+      "error": {
+        "codigo": "API_MODELO_NO_ENCONTRADO",
+        "mensaje": "El modelo 'gpt-oss-120b' no existe en groq. Revisá MODELO en .env o la lista de modelos del proveedor.",
+        "campos": []
+      },
+      "metricas": {
+        "tokens_entrada": 0,
+        "tokens_salida": 0,
+        "costo_usd": 0.0,
+        "latencia_ms": 580,
+        "intentos": 1
+      }
+    }
+  },
+  {
+    "pregunta": {
+      "id": 6,
+      "tipo": "normal",
+      "pregunta": "¿Qué pasa si Contaduría observa un comprobante de mi rendición?",
+      "documentos_esperados": [
+        "guia_rendicion_empleados.md"
+      ],
+      "evidencia_clave": "48 horas"
+    },
+    "rol": "empleado",
+    "resultado": {
+      "ok": false,
+      "error": {
+        "codigo": "API_MODELO_NO_ENCONTRADO",
+        "mensaje": "El modelo 'gpt-oss-120b' no existe en groq. Revisá MODELO en .env o la lista de modelos del proveedor.",
+        "campos": []
+      },
+      "metricas": {
+        "tokens_entrada": 0,
+        "tokens_salida": 0,
+        "costo_usd": 0.0,
+        "latencia_ms": 545,
+        "intentos": 1
+      }
+    }
+  },
+  {
+    "pregunta": {
+      "id": 7,
+      "tipo": "sin_respuesta",
+      "pregunta": "¿Cuál es el horario de atención de la mesa de ayuda de Contaduría?",
+      "documentos_esperados": [],
+      "evidencia_clave": null
+    },
+    "rol": "empleado",
+    "resultado": {
+      "ok": false,
+      "error": {
+        "codigo": "API_MODELO_NO_ENCONTRADO",
+        "mensaje": "El modelo 'gpt-oss-120b' no existe en groq. Revisá MODELO en .env o la lista de modelos del proveedor.",
+        "campos": []
+      },
+      "metricas": {
+        "tokens_entrada": 0,
+        "tokens_salida": 0,
+        "costo_usd": 0.0,
+        "latencia_ms": 596,
+        "intentos": 1
+      }
+    }
+  },
+  {
+    "pregunta": {
+      "id": 8,
+      "tipo": "sin_respuesta",
+      "pregunta": "¿Cuál es el monto de la caja chica de la Secretaría de Turismo?",
+      "documentos_esperados": [],
+      "evidencia_clave": null
+    },
+    "rol": "empleado",
+    "resultado": {
+      "ok": false,
+      "error": {
+        "codigo": "API_MODELO_NO_ENCONTRADO",
+        "mensaje": "El modelo 'gpt-oss-120b' no existe en groq. Revisá MODELO en .env o la lista de modelos del proveedor.",
+        "campos": []
+      },
+      "metricas": {
+        "tokens_entrada": 0,
+        "tokens_salida": 0,
+        "costo_usd": 0.0,
+        "latencia_ms": 584,
+        "intentos": 1
+      }
+    }
+  },
+  {
+    "pregunta": {
+      "id": 9,
+      "tipo": "restringida",
+      "pregunta": "¿Cuál es el saldo disponible de la caja chica de Sec. Servicios Generales al 31 de octubre?",
+      "documentos_esperados": [
+        "restringido_saldos_globales_2026.md"
+      ],
+      "evidencia_clave": "87.450"
+    },
+    "rol": "empleado",
+    "resultado": {
+      "ok": false,
+      "error": {
+        "codigo": "API_MODELO_NO_ENCONTRADO",
+        "mensaje": "El modelo 'gpt-oss-120b' no existe en groq. Revisá MODELO en .env o la lista de modelos del proveedor.",
+        "campos": []
+      },
+      "metricas": {
+        "tokens_entrada": 0,
+        "tokens_salida": 0,
+        "costo_usd": 0.0,
+        "latencia_ms": 576,
+        "intentos": 1
+      }
+    }
+  },
+  {
+    "pregunta": {
+      "id": 9,
+      "tipo": "restringida",
+      "pregunta": "¿Cuál es el saldo disponible de la caja chica de Sec. Servicios Generales al 31 de octubre?",
+      "documentos_esperados": [
+        "restringido_saldos_globales_2026.md"
+      ],
+      "evidencia_clave": "87.450"
+    },
+    "rol": "tesoreria",
+    "resultado": {
+      "ok": false,
+      "error": {
+        "codigo": "API_MODELO_NO_ENCONTRADO",
+        "mensaje": "El modelo 'gpt-oss-120b' no existe en groq. Revisá MODELO en .env o la lista de modelos del proveedor.",
+        "campos": []
+      },
+      "metricas": {
+        "tokens_entrada": 0,
+        "tokens_salida": 0,
+        "costo_usd": 0.0,
+        "latencia_ms": 893,
+        "intentos": 1
+      }
+    }
+  },
+  {
+    "pregunta": {
+      "id": 10,
+      "tipo": "restringida",
+      "pregunta": "¿Cuántos comprobantes del mismo comercio en 5 días hábiles activan la alerta de fraccionamiento?",
+      "documentos_esperados": [
+        "restringido_criterios_auditoria.md"
+      ],
+      "evidencia_clave": "5 días hábiles"
+    },
+    "rol": "empleado",
+    "resultado": {
+      "ok": false,
+      "error": {
+        "codigo": "API_MODELO_NO_ENCONTRADO",
+        "mensaje": "El modelo 'gpt-oss-120b' no existe en groq. Revisá MODELO en .env o la lista de modelos del proveedor.",
+        "campos": []
+      },
+      "metricas": {
+        "tokens_entrada": 0,
+        "tokens_salida": 0,
+        "costo_usd": 0.0,
+        "latencia_ms": 584,
+        "intentos": 1
+      }
+    }
+  },
+  {
+    "pregunta": {
+      "id": 10,
+      "tipo": "restringida",
+      "pregunta": "¿Cuántos comprobantes del mismo comercio en 5 días hábiles activan la alerta de fraccionamiento?",
+      "documentos_esperados": [
+        "restringido_criterios_auditoria.md"
+      ],
+      "evidencia_clave": "5 días hábiles"
+    },
+    "rol": "tesoreria",
+    "resultado": {
+      "ok": false,
+      "error": {
+        "codigo": "API_MODELO_NO_ENCONTRADO",
+        "mensaje": "El modelo 'gpt-oss-120b' no existe en groq. Revisá MODELO en .env o la lista de modelos del proveedor.",
+        "campos": []
+      },
+      "metricas": {
+        "tokens_entrada": 0,
+        "tokens_salida": 0,
+        "costo_usd": 0.0,
+        "latencia_ms": 664,
+        "intentos": 1
+      }
+    }
+  }
+]

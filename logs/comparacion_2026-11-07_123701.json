@@ -1,0 +1,186 @@
+[
+  {
+    "consulta": "¿A qué rubro corresponde el código R-05?",
+    "debe_contener": "R-05",
+    "vectorial": {
+      "acierta": false,
+      "posicion": null,
+      "top": [
+        "guia_rendicion_empleados.md | 4. Rubros de la planilla | pág 0",
+        "decreto_2980-2000.pdf | Anexo 34 | pág 279",
+        "decreto_2980-2000.pdf | Anexo 43 | pág 363"
+      ]
+    },
+    "hibrida": {
+      "acierta": true,
+      "posicion": 2,
+      "top": [
+        "guia_rendicion_empleados.md | 4. Rubros de la planilla | pág 0",
+        "guia_rendicion_empleados.md | 4. Rubros de la planilla | pág 0",
+        "decreto_2980-2000.pdf | Anexo 34 | pág 279"
+      ]
+    },
+    "caso_clave": true
+  },
+  {
+    "consulta": "¿Para qué sirve el Formulario AX-12?",
+    "debe_contener": "AX-12",
+    "vectorial": {
+      "acierta": true,
+      "posicion": 1,
+      "top": [
+        "guia_rendicion_empleados.md | 1. Qué se puede pagar con caja chica | pág 0",
+        "decreto_2980-2000.pdf | Artículo 128 | pág 53",
+        "decreto_2980-2000.pdf | Anexo 10 | pág 105"
+      ]
+    },
+    "hibrida": {
+      "acierta": true,
+      "posicion": 1,
+      "top": [
+        "guia_rendicion_empleados.md | 1. Qué se puede pagar con caja chica | pág 0",
+        "decreto_2980-2000.pdf | Anexo 10 | pág 105",
+        "decreto_2980-2000.pdf | Anexo 2 | pág 73"
+      ]
+    },
+    "caso_clave": false
+  },
+  {
+    "consulta": "¿Cómo se completa la planilla PR-2026?",
+    "debe_contener": "PR-2026",
+    "vectorial": {
+      "acierta": true,
+      "posicion": 1,
+      "top": [
+        "guia_rendicion_empleados.md | 3. Cómo completar la Planilla de Rendición PR-2026 | pág 0",
+        "decreto_77-2026.txt | Encabezado | pág 0",
+        "guia_rendicion_empleados.md | 3. Cómo completar la Planilla de Rendición PR-2026 | pág 0"
+      ]
+    },
+    "hibrida": {
+      "acierta": true,
+      "posicion": 1,
+      "top": [
+        "guia_rendicion_empleados.md | 3. Cómo completar la Planilla de Rendición PR-2026 | pág 0",
+        "decreto_77-2026.txt | Encabezado | pág 0",
+        "guia_rendicion_empleados.md | 3. Cómo completar la Planilla de Rendición PR-2026 | pág 0"
+      ]
+    },
+    "caso_clave": false
+  },
+  {
+    "consulta": "¿De qué área es responsable Zahira Bustamante?",
+    "debe_contener": "Zahira Bustamante",
+    "vectorial": {
+      "acierta": false,
+      "posicion": null,
+      "top": [
+        "decreto_2980-2000.pdf | Artículo 157 | pág 63",
+        "decreto_2980-2000.pdf | Anexo 4 | pág 81",
+        "decreto_77-2026.txt | Artículo 1 | pág 0"
+      ]
+    },
+    "hibrida": {
+      "acierta": true,
+      "posicion": 2,
+      "top": [
+        "decreto_77-2026.txt | Artículo 1 | pág 0",
+        "decreto_77-2026.txt | Artículo 1 | pág 0",
+        "decreto_2980-2000.pdf | Artículo 157 | pág 63"
+      ]
+    },
+    "caso_clave": true
+  },
+  {
+    "consulta": "¿Quién maneja la caja de cambio de Bromatología?",
+    "debe_contener": "Ezequiel Abait",
+    "vectorial": {
+      "acierta": false,
+      "posicion": null,
+      "top": [
+        "decreto_2980-2000.pdf | Artículo 87 | pág 39",
+        "decreto_2980-2000.pdf | Artículo 20 | pág 16",
+        "decreto_2980-2000.pdf | Anexo 83 | pág 527"
+      ]
+    },
+    "hibrida": {
+      "acierta": true,
+      "posicion": 2,
+      "top": [
+        "decreto_2980-2000.pdf | Anexo 34 | pág 279",
+        "decreto_77-2026.txt | Artículo 1 | pág 0",
+        "decreto_2980-2000.pdf | Artículo 87 | pág 39"
+      ]
+    },
+    "caso_clave": true
+  },
+  {
+    "consulta": "¿Qué establece el ARTICULO 88?",
+    "debe_contener": "ARTICULO 88",
+    "vectorial": {
+      "acierta": true,
+      "posicion": 1,
+      "top": [
+        "decreto_2980-2000.pdf | Artículo 88 | pág 39",
+        "decreto_2980-2000.pdf | Artículo 88 | pág 39",
+        "decreto_2980-2000.pdf | Artículo 90 | pág 39"
+      ]
+    },
+    "hibrida": {
+      "acierta": true,
+      "posicion": 1,
+      "top": [
+        "decreto_2980-2000.pdf | Artículo 88 | pág 39",
+        "decreto_2980-2000.pdf | Artículo 88 | pág 39",
+        "decreto_2980-2000.pdf | Anexo 88 | pág 563"
+      ]
+    },
+    "caso_clave": false
+  },
+  {
+    "consulta": "¿Qué es el Formulario 46 del Anexo 58?",
+    "debe_contener": "FORM. 46",
+    "vectorial": {
+      "acierta": false,
+      "posicion": null,
+      "top": [
+        "decreto_2980-2000.pdf | Anexo 44 | pág 371",
+        "decreto_2980-2000.pdf | Anexo 65 | pág 449",
+        "decreto_2980-2000.pdf | Anexo 42 | pág 359"
+      ]
+    },
+    "hibrida": {
+      "acierta": true,
+      "posicion": 2,
+      "top": [
+        "decreto_2980-2000.pdf | Anexo 58 | pág 431",
+        "decreto_2980-2000.pdf | Anexo 58 | pág 431",
+        "decreto_2980-2000.pdf | Anexo 44 | pág 371"
+      ]
+    },
+    "caso_clave": true
+  },
+  {
+    "consulta": "¿Cuál es la caja de cambio de Ingresos Públicos III?",
+    "debe_contener": "María Paula Ruiz",
+    "vectorial": {
+      "acierta": false,
+      "posicion": null,
+      "top": [
+        "decreto_2980-2000.pdf | Anexo 1 | pág 69",
+        "decreto_2980-2000.pdf | Anexo 16 | pág 177",
+        "decreto_2980-2000.pdf | Anexo 34 | pág 279"
+      ]
+    },
+    "hibrida": {
+      "acierta": true,
+      "posicion": 1,
+      "top": [
+        "decreto_77-2026.txt | Artículo 1 | pág 0",
+        "decreto_2980-2000.pdf | Anexo 1 | pág 69",
+        "decreto_2980-2000.pdf | Anexo 16 | pág 177"
+      ]
+    },
+    "caso_clave": true
+  }
+]

@@ -1,0 +1,208 @@
+{
+  "A": {
+    "tamano": 500,
+    "solape": 50,
+    "fragmentos": 2162,
+    "filas": [
+      {
+        "id": 1,
+        "modo": "hibrida",
+        "pos_documento": null,
+        "pos_fragmento": null
+      },
+      {
+        "id": 1,
+        "modo": "vectorial",
+        "pos_documento": null,
+        "pos_fragmento": null
+      },
+      {
+        "id": 2,
+        "modo": "hibrida",
+        "pos_documento": 1,
+        "pos_fragmento": null
+      },
+      {
+        "id": 2,
+        "modo": "vectorial",
+        "pos_documento": 1,
+        "pos_fragmento": 4
+      },
+      {
+        "id": 3,
+        "modo": "hibrida",
+        "pos_documento": 3,
+        "pos_fragmento": null
+      },
+      {
+        "id": 3,
+        "modo": "vectorial",
+        "pos_documento": null,
+        "pos_fragmento": null
+      },
+      {
+        "id": 4,
+        "modo": "hibrida",
+        "pos_documento": 2,
+        "pos_fragmento": 3
+      },
+      {
+        "id": 4,
+        "modo": "vectorial",
+        "pos_documento": null,
+        "pos_fragmento": null
+      },
+      {
+        "id": 5,
+        "modo": "hibrida",
+        "pos_documento": 5,
+        "pos_fragmento": null
+      },
+      {
+        "id": 5,
+        "modo": "vectorial",
+        "pos_documento": 1,
+        "pos_fragmento": null
+      },
+      {
+        "id": 6,
+        "modo": "hibrida",
+        "pos_documento": 1,
+        "pos_fragmento": 1
+      },
+      {
+        "id": 6,
+        "modo": "vectorial",
+        "pos_documento": 2,
+        "pos_fragmento": 2
+      },
+      {
+        "id": 9,
+        "modo": "hibrida",
+        "pos_documento": 3,
+        "pos_fragmento": 5
+      },
+      {
+        "id": 9,
+        "modo": "vectorial",
+        "pos_documento": null,
+        "pos_fragmento": null
+      },
+      {
+        "id": 10,
+        "modo": "hibrida",
+        "pos_documento": 1,
+        "pos_fragmento": 1
+      },
+      {
+        "id": 10,
+        "modo": "vectorial",
+        "pos_documento": null,
+        "pos_fragmento": null
+      }
+    ]
+  },
+  "B": {
+    "tamano": 1000,
+    "solape": 150,
+    "fragmentos": 1169,
+    "filas": [
+      {
+        "id": 1,
+        "modo": "hibrida",
+        "pos_documento": null,
+        "pos_fragmento": null
+      },
+      {
+        "id": 1,
+        "modo": "vectorial",
+        "pos_documento": null,
+        "pos_fragmento": null
+      },
+      {
+        "id": 2,
+        "modo": "hibrida",
+        "pos_documento": 1,
+        "pos_fragmento": null
+      },
+      {
+        "id": 2,
+        "modo": "vectorial",
+        "pos_documento": 1,
+        "pos_fragmento": null
+      },
+      {
+        "id": 3,
+        "modo": "hibrida",
+        "pos_documento": null,
+        "pos_fragmento": null
+      },
+      {
+        "id": 3,
+        "modo": "vectorial",
+        "pos_documento": null,
+        "pos_fragmento": null
+      },
+      {
+        "id": 4,
+        "modo": "hibrida",
+        "pos_documento": 1,
+        "pos_fragmento": 1
+      },
+      {
+        "id": 4,
+        "modo": "vectorial",
+        "pos_documento": 1,
+        "pos_fragmento": 1
+      },
+      {
+        "id": 5,
+        "modo": "hibrida",
+        "pos_documento": 1,
+        "pos_fragmento": 2
+      },
+      {
+        "id": 5,
+        "modo": "vectorial",
+        "pos_documento": 1,
+        "pos_fragmento": null
+      },
+      {
+        "id": 6,
+        "modo": "hibrida",
+        "pos_documento": 1,
+        "pos_fragmento": 1
+      },
+      {
+        "id": 6,
+        "modo": "vectorial",
+        "pos_documento": 2,
+        "pos_fragmento": 2
+      },
+      {
+        "id": 9,
+        "modo": "hibrida",
+        "pos_documento": 5,
+        "pos_fragmento": null
+      },
+      {
+        "id": 9,
+        "modo": "vectorial",
+        "pos_documento": null,
+        "pos_fragmento": null
+      },
+      {
+        "id": 10,
+        "modo": "hibrida",
+        "pos_documento": 1,
+        "pos_fragmento": 1
+      },
+      {
+        "id": 10,
+        "modo": "vectorial",
+        "pos_documento": null,
+        "pos_fragmento": null
+      }
+    ]
+  }
+}

@@ -37,7 +37,7 @@ fde-caja-chica/
 ## Cómo correrlo desde un clon limpio
 
 ```bash
-git clone https://github.com/YoseliLambertucci/FDE-CAJA-CHICA.git && cd FDE-CAJA-CHICA
+git clone https://github.com/YoseliLambertucci/fde_coder.git && cd fde_coder
 python -m venv .venv
 source .venv/bin/activate          # En Windows: .venv\Scripts\activate
 pip install -r requirements.txt

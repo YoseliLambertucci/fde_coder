@@ -1,0 +1,34 @@
+[
+  {
+    "consulta": "¿A qué rubro corresponde el código R-05?",
+    "debe_contener": "R-05"
+  },
+  {
+    "consulta": "¿Para qué sirve el Formulario AX-12?",
+    "debe_contener": "AX-12"
+  },
+  {
+    "consulta": "¿Cómo se completa la planilla PR-2026?",
+    "debe_contener": "PR-2026"
+  },
+  {
+    "consulta": "¿De qué área es responsable Zahira Bustamante?",
+    "debe_contener": "Zahira Bustamante"
+  },
+  {
+    "consulta": "¿Quién maneja la caja de cambio de Bromatología?",
+    "debe_contener": "Ezequiel Abait"
+  },
+  {
+    "consulta": "¿Qué establece el ARTICULO 88?",
+    "debe_contener": "ARTICULO 88"
+  },
+  {
+    "consulta": "¿Qué es el Formulario 46 del Anexo 58?",
+    "debe_contener": "FORM. 46"
+  },
+  {
+    "consulta": "¿Cuál es la caja de cambio de Ingresos Públicos III?",
+    "debe_contener": "María Paula Ruiz"
+  }
+]
